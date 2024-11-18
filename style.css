@@ -1,0 +1,72 @@
+/* styles.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  margin-left: -265px;
+}
+
+
+.background {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.content {
+  text-align: center;
+  position: absolute;
+  /* bottom: 20%; */
+  width: 100%;
+}
+
+.quote {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon {
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+.social{
+  margin-left: 166px;
+  margin-top: 20px;
+}
+.social p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.social img{
+  width:20px;
+  height: 20px;
+  margin-right: 5px;
+  margin-bottom: -5px;
+}
+
+.social span {
+  color: #ccc;
+  font-weight: 300;
+  font-size: 14px;
+  margin-right: 18px;
+  
+}
